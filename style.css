@@ -16,8 +16,6 @@ body {
 }
 
 .box {
-    position: relative;
-    margin: 9rem auto;
     width: 300px;
     height: 450px;
     background-color: hsl(0, 0%, 100%);
@@ -39,7 +37,7 @@ img {
     padding: 0px 20px;
     font-size: 1.3rem;
     text-align: center;
-    color: hsl(218, 44%, 22%) ;
+    color: hsl(218, 44%, 22%);
 }
 
 .light {
@@ -60,3 +58,12 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+@media screen and (min-height: 40rem) {
+    .attribution {
+        position: absolute;
+        bottom: 15px;
+        font-size: 11px;
+        text-align: center;
+    }
